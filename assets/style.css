@@ -2,9 +2,12 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, li{
 	margin: 0;
 }
 
+section{
+	background-size: cover;
+}
+
 .main{
 	background-image: url("./img/main-bg.jpg");
-	background-size: cover;
 }
 
 h1, h2, p{
@@ -13,12 +16,32 @@ h1, h2, p{
 	text-align: center;
 }
 
-.red{
-	background-color: green;
+.space{
+	background-image: url("./img/space-bg.jpg");
+}
+
+.space img{
+	min-width: 600px;
+}
+
+.crabs{
+	background-image: url("./img/crab-bg.jpg");
+}
+
+.pattern{
+	background-image: url("./img/album-cover.jpg");
+	background-size: 383px;
+}
+
+.gradient{
+	background: linear-gradient(#000000, #b617ff, #bc2bff, #6b2bff);
+
 }
 
 .table-cell {
 	height: 100vh;
 	width: 100vw;
 	display: table-cell;
-	vertical-align: middle;}
+	vertical-align: middle;
+	text-align: center;
+	}
