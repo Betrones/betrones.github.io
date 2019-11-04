@@ -1,47 +1,33 @@
-body, h1, h2, h3, h4, h5, h6, p, ol, ul, li{
+body{
 	margin: 0;
-}
-
-section{
-	background-size: cover;
-}
-
-.main{
-	background-image: url("./img/main-bg.jpg");
-}
-
-h1, h2, p{
-	color: white;
-	font-size: 80px;
+	font-size: 24px;
 	text-align: center;
+	background-repeat: repeat;
+	font-family: 'Space Mono', monospace;
 }
 
-.space{
-	background-image: url("./img/space-bg.jpg");
+p, h1. nav, h2, img{
+	display: block;
 }
 
-.space img{
-	min-width: 600px;
+nav a{
+	margin-right: 15px;
 }
 
-.crabs{
-	background-image: url("./img/crab-bg.jpg");
+footer p{
+	margin: 10 0 0 0;
 }
 
-.pattern{
-	background-image: url("./img/album-cover.jpg");
-	background-size: 383px;
+a{
+	text-decoration: none;
+	color: #606060;
 }
 
-.gradient{
-	background: linear-gradient(#000000, #b617ff, #bc2bff, #6b2bff);
-
+.container {
+	width: 70%;
+	margin: 0 auto;
 }
 
-.table-cell {
-	height: 100vh;
-	width: 100vw;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	}
+.darkbg{
+	background-color: #e8e8e8;
+}
