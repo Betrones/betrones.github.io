@@ -1,0 +1,18 @@
+body{
+	margin:0;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.a {
+	color:white;
+	background-color: salmon;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
