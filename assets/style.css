@@ -18,9 +18,9 @@ margin: 0 auto;
 }
 
 .comet{
-	position: absolute;
+	/*position: absolute;
 	top: -210px;
-	left: 900px;
+	left: 900px;*/
 	width: 240px;
 	height: 800px;
 	transform: rotate(45deg);
